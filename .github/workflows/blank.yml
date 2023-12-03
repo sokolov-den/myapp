@@ -33,7 +33,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           ip addr show
-          ping 10.100.100.100
+          ping -c 4 10.100.100.100
                   
 
           #login:
