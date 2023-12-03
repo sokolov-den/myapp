@@ -33,8 +33,8 @@ jobs:
       - name: Run a multi-line script
         run: |
           ip addr show
-          ip route
-        
+          ping 10.100.100.100
+                  
 
           #login:
           #    runs-on: ubuntu-latest
