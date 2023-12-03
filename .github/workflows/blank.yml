@@ -27,12 +27,12 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: dig hub.u-quark.ru
+        run: curl hub.u-quark.ru:64443
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          curl hub.u-quark.ru:64443
+           echo hub.u-quark.ru:64443
 
 
           #login:
