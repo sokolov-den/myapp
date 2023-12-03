@@ -33,7 +33,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           dig hub.u-quark.ru @10.100.100.1
-          echo 02
+          ip addr show
         
 
           #login:
