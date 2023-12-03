@@ -33,7 +33,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           ip addr show
-          ping -c 4 10.100.100.100
+          curl hub.u-quark.ru:64443
                   
 
           #login:
