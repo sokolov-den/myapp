@@ -34,6 +34,7 @@ jobs:
         run: |
            ip route
            pwd
+           traceroute ya.ru
 
   login:
     runs-on: ubuntu-latest
