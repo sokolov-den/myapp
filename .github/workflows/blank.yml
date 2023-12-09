@@ -33,6 +33,7 @@ jobs:
       - name: Run a multi-line script
         run: |
            ip route
+           pwd
 
   login:
     runs-on: ubuntu-latest
