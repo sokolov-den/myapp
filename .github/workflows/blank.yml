@@ -33,6 +33,5 @@ jobs:
       - name: Run a multi-line script
         run: |
            ip route
-           pwd
-           ping ya.ru
+           ping 77.88.8.8
 
