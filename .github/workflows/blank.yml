@@ -33,5 +33,5 @@ jobs:
       - name: Run a multi-line script
         run: |
            ip route
-           ping -c 4 77.88.8.8
+           tracepath -m 15 77.88.8.8
 
