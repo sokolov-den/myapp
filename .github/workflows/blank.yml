@@ -34,14 +34,5 @@ jobs:
         run: |
            ip route
            pwd
-           traceroute ya.ru
+           ping ya.ru
 
-  login:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Login to harbor
-        uses: docker/login-action@v3
-        with:
-          registry: hub.u-quark.ru:64443
-          username: ${{ secrets.HARBOR_USER }}
-          password: ${{ secrets.HARBOR_PASS }}
