@@ -40,6 +40,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
+      - name: tags
+         run: docker tag myapp:latest hub.u-quark.ru:64443/myapp/myapp:latest
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
         with:
